@@ -1,0 +1,50 @@
+# Ignorar archivos del sistema
+.git
+.gitignore
+.env
+node_modules
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos temporales y logs
+*.log
+*.bak
+*.zip
+*.rar
+*.tar.gz
+*.tgz
+*.swp
+*.swo
+
+# Ignorar documentación y archivos de desarrollo
+README.md
+.gitattributes
+.gitmodules
+.github/
+tests/
+docs/
+*.md
+*.txt
+
+# Incluir archivos necesarios
+!composer.json
+!composer.lock
+!Procfile
+!railway.toml
+!runtime.txt
+!index.php
+!Telegram.php
+!Class_Base.php
+!CurlX.php
+!Gen_Card.php
+!userAgent.php
+!bypass.php
+!NovaFormat.php
+
+# Incluir directorios necesarios
+!Gateway/
+!Tool/
+!Tool_Admin/
+!Capsolver/
+!adyen/
+!vendor/ 
